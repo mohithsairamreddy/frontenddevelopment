@@ -1,0 +1,22 @@
+h1{
+    color: lawngreen;
+}
+.mohith{
+    color: lightcoral;
+}
+#unique{
+    color:blue;
+}
+*{
+    font-style:oblique;
+}
+h6,h3{
+    color:crimson;
+}
+a:hover{
+    color:saddlebrown;
+    text-decoration:none;
+}
+li[class]{
+    font-size: 150%;
+}
