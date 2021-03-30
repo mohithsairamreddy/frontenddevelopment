@@ -3,10 +3,13 @@
 }
 .nav-element{
     text-decoration:none;
-    padding-right:300px;
+    padding-right:19%;
     color: #ffffff;
-    font-family:nico;
     font-weight:400;
+    font-family: 'Playfair Display', serif;
+}
+h2{
+  font-family: 'Courgette', cursive;
 }
 .nav-bar{
     padding-top:10px;
@@ -18,14 +21,17 @@
 
 .Aboutme{
     line-height:2em;
-    font-family:'GreatVibes-Regular';
+    font-family: 'Volkhov', serif;
     padding-left: 20px;
+    font-weight:500;
 }
 .Qualifications{
   padding-left: 20px;
+  font-family: 'Volkhov', serif;
 }
 .Contactme{
   padding-left: 20px;
+  font-family: 'Volkhov', serif;
 }
 #center{
     display: block;
