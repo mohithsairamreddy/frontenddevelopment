@@ -37,11 +37,10 @@ h2{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top:20px;
     width:300px;
 }
 .clip-circle{
-    clip-path:circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
 }
 table
 {
@@ -67,18 +66,20 @@ td
     content:url("./Icons/Phone.png");
   }
 
-  a[href^="https"]::before {
+  .linkedin::before {
     content:url("./Icons/linkedin.png");
-    color: blue;
   }
-  
-
-  
+  .instagram::before {
+    content:url("./Icons/instagram.png");
+  }
   li {
     margin-bottom: .5rem;
   }
-  .icons{
+  #icons{
       text-decoration:underline;
+      color: blue;
   }
+
+  
 
 
