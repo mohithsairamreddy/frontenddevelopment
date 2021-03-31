@@ -72,6 +72,10 @@ td
   .instagram::before {
     content:url("./Icons/instagram.png");
   }
+  .map::before{
+    content: url("./Icons/map1.png");
+    color: blue;
+  }
   li {
     margin-bottom: .5rem;
   }
