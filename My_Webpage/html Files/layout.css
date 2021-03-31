@@ -3,7 +3,7 @@
 }
 .nav-element{
     text-decoration:none;
-    padding-right:16%;
+    padding-right:15%;
     color: #ffffff;
     font-weight:400;
     font-family: 'Playfair Display', serif;
@@ -43,6 +43,19 @@ h2{
 .clip-circle{
     clip-path:circle(50% at 50% 50%);
 }
+table
+{
+    border: 1px dashed black;
+    }
+.heading
+{
+    font-weight:bold;
+    }
+td
+{
+    padding: 2px;
+    border: 1px solid black;
+    }
 .pic{
     align-content:center;
 }
@@ -56,6 +69,7 @@ h2{
 
   a[href^="https"]::before {
     content:url("./Icons/linkedin.png");
+    color: blue;
   }
   
 
