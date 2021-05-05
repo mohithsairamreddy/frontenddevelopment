@@ -4,42 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment Form</title>
+    <!-- Bootstrap core CSS-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- MY Modified CSS-->
     <link rel="stylesheet" href="form.css">
+    
+
 </head>
 <body>
-    <div class="container">
     <form action="" method="GET">
-        <h1 class="main_heading">My Payment Form</h1>
+    <div class="heading">
+        <h1>Payment Form</h1>
+        <p>Required fileds are followed by *</p>
+    </div>
+    <div class="containers">
+        <!--COntact Information-->
         <h2>Contact Information</h2>
-        <p>Name: <input type="text" name="name" placeholder="Name"></p>
-        <p>
-            Male <input type="radio" name="Gender" id="Male"> Female <input type="radio" name="Gender" id="Female">
+        <p>Name: *<input type="text" name="name" placeholder="Name" required></p>
+        <fieldset>
+            <legend>Gender *</legend>
+            <p>
+                <div class=" form-check-inline gender">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">Male</label>
+                  </div>
+                  <div class="form-check form-check-inline gender">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Female</label>
+                  </div>
+            </p>
+        </fieldset>
+            <div class="form-group">
+                <label for="comment">Address: *</label>
+                <textarea rows="6" cols="10" placeholder="Enter your Address" name="address" class="address" required></textarea>
+              </div>
         </p>
-        <p>Address: <textarea name="address" id="address" cols="30" rows="10"/ placeholder="Enter your Address"></textarea></p>
-        <p>Email: <input type="email" name="email" id="email" placeholder="xyz@gmail.com"></p>
-        <p>Pincode: <input type="number" name="pincode" name="pincode" id=="pincode" placeholder="123456"></p>
-        <h1>Payment Information</h1>
-        <p>Card type:
-            <select name="Card type" id="card_type">
-                <option value="">--Select a Card type</option>
-                <option value="visa">visa</option>
+        <p>Email: *<input type="email" name="email" id="email" placeholder="xyz@gmail.com" required></p>
+        </p>
+        <p>Pincode: * <input type="number" name="pincode" name="pincode" id="pincode" placeholder="123456" required></p>
+
+        <!--Payment Information-->
+        <h2>Payment Information</h2>
+        <p>Card type: *
+            <select name="Card type" id="card_type" class="form-select" required>
+                <option value="">--Select a Cardtype</option>
+                <option value="visa">visa </i></option>
                 <option value="Master card">Master card</option>
                 <option value="Maestro">Maestro</option>
                 <option value="Rupay">Rupay</option>
             </select>
          </p>
          <p>
-             Card Number:<input type="number" name="card_number" id="card_number" placeholder="1111-2222-3333-4444" required>
+             Card Number: *<input type="number" name="card_number" id="card_number" placeholder="1111-2222-3333-4444" required id="validationCustomUsername">
          </p>
          <p>
-             Expiration date:<input type="date" name="exp_date" id="exp_date" required>
+             Expiration date: *<input type="date" name="exp_date" id="exp_date" required>
          </p>
          <p>
-             CVV:<input type="password" name="CVV" id="CVV" placeholder="123" required>
+             CVV: *<input type="password" name="CVV" id="CVV" placeholder="123" required>
          </p>
-         <p>
-         <input type="submit" value="Paynow">
-         </p>
+        <button type="submit" class="btn btn-secondary btn-lg btn-block submit">Validate the payment</button>
+
     </div>
-</body>
-</html>

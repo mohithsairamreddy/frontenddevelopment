@@ -7,11 +7,22 @@ body{
     font-size:17px;
     padding:8px;
 }
-.container{
+.submit{
+    background-color: #44daca;
+    padding: 12px 20px ;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+.containers{
     background-color:#f2f2f2;
     padding:5px 20px 15px 20px;
     border:1px solid lightgray;
     border-radius: 6px;
+}
+.gender{
+    padding-left: 20px;
+    margin-top: -30px;
 }
 input[type="text"],
 input[type="email"],
@@ -25,20 +36,31 @@ textarea {
     border:1px solid  #cccc;
    border-radius:6px; 
 }
-fieldarea{
+.address{
     background-color: #ffff;
     border: 1px solid #cccc;
 }
 .main_heading{
     text-align:center;
 }
-input[type="submit"]{
-    background-color: #44daca;
-    color: white;
-    border: none;
+fieldset {
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.heading{
+    background: yellowgreen;
+    padding: 5px 10px 15px 15px;
+    border: 1px solid lightgray;
     border-radius: 4px;
-    padding: 12px 20px;
-    cursor: pointer;
-    width:100%;
+}
+.heading h1 {
+    color: #fff;
+}
+.heading p {
+    color: #fff;
+}
+h2{
+    margin-top:25px !important;
 }
 
