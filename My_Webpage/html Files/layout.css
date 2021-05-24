@@ -1,5 +1,11 @@
-.container{
-  background-color:#DCE1E3;
+.container-fluid{
+  background-color:#f8ecf7;
+  font-family: sans-serif;
+}
+
+.nav-element:hover{
+  color:black;
+  text-decoration: underline;
 }
 .nav-element{
     text-decoration:none;
@@ -11,8 +17,9 @@
 h2{
   font-family: 'Courgette', cursive;
 }
+
 .nav-bar{
-    padding-top:10px;
+    padding-top:15px;
     padding-bottom:10px;
     padding-left:6%;
     border:1px solid black;
@@ -59,29 +66,33 @@ td
     align-content:center;
 }
   a[href^="mailto"]::before {
-    content:url("./Icons/Mail.png");
+    content:url("https://img.icons8.com/dusk/20/000000/email.png");
   }
   
   a[href^="tel"]::before {
-    content:url("./Icons/Phone.png");
+    content:url("https://img.icons8.com/cute-clipart/20/000000/callback.png");
   }
 
   .linkedin::before {
-    content:url("./Icons/linkedin.png");
+    content:url("https://img.icons8.com/fluent/20/000000/linkedin-2.png");
   }
   .instagram::before {
-    content:url("./Icons/instagram.png");
+    content:url("https://img.icons8.com/cute-clipart/20/000000/instagram-new.png" );
+    text-decoration:none;
   }
   .map::before{
-    content: url("./Icons/map1.png");
+    content: url("https://img.icons8.com/doodle/20/000000/google-maps-new.png");
     color: blue;
   }
   li {
     margin-bottom: .5rem;
   }
   #icons{
-      text-decoration:underline;
+      text-decoration:none;
       color: blue;
+  }
+  url{
+    text-decoration: none;
   }
 
   

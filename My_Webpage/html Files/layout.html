@@ -8,18 +8,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Volkhov:ital@1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="layout.css">
-    <title>Layout</title>
+    <title>Layout</title> 
 </head>
-<body class="container">
+<body class="container-fluid">
 <div>
-    <div class="nav-bar">
-        <a href="#home" class="nav-element">Home</a>
-        <a href="#aboutme" class="nav-element">About Me</a>
-        <a href="#qualifications" class="nav-element">Qualification</a>
-        <a href="#contactme" class="nav-element">Contact Me</a>
-    </div>
+     <!-- Nav-bar with an image and text -->
+    <nav class="nav-bar">
+        <a class="nav-element navbar-brand" href="#home">
+            <img src="https://img.icons8.com/ios/24/000000/home--v1.png"  width="30" height="30" alt="">
+            Home
+        </a>
+        <a class="nav-element navbar-brand" href="#aboutme">
+            <img src="https://img.icons8.com/ios/100/000000/about.png" width="30" height="30" alt="">
+            About Me
+        </a>
+        <a class="nav-element navbar-brand" href="#qualifications">
+            <img src="https://img.icons8.com/pastel-glyph/64/000000/contract.png" width="30" height="30" alt="">
+            Qualification
+        </a>
+        <a class="nav-element navbar-brand" href="#contactme">
+            <img src="https://img.icons8.com/ios/48/000000/add-contact-to-company.png"  width="30" height="30" alt="">
+            Contact Me
+        </a>
+    </nav>
 
+    <br>
+
+
+    
+    <!---->
     <div id="home" class="pic">
         <img src="./profile.jpeg" class="clip-circle" id="center" height="300px">
     </div>
@@ -39,10 +58,12 @@
         2.Beleive in my self<br>
         3.Action<br>
     </div>
+    <br>
 
     <div id="qualifications" class="Qualifications">
         <h2>Educational qualifications<br></h2>
-    <table border="1" bordercolor = "black">
+        <br>
+    <table border="1" class="table" bordercolor ="black">
         <tr>
             <td class="heading">Exam passed (With specialisation, if any)</td>
             <td class="heading">Year of Study</td>
@@ -86,12 +107,13 @@
         </tr>
     </table>
     </div>
+    <br>
 
     <div id="contactme" class="Contactme">
         <h2>Contact Me</h2>
         <ul>
-            <li><a href="mailto:mohithsairamreddy@gmail.com" class="icons">Email</a></li><br>
-            <li><a href="tel:+919390706893" class="icons">Phone</a></li><br>
+            <li><a href="mailto:mohithsairamreddy@gmail.com" > Email</a></li><br>
+            <li><a href="tel:+919390706893"> Phone</a></li><br>
             <li><a href="https://goo.gl/maps/pNqSwhkPwfmRH7cd9" id="icons" class="map" target="_blank"> Locate Me</a></li><br>
             <li><a href="https://www.linkedin.com/in/mohith-sai-ram-reddy-9743531a6/" id="icons" class="linkedin" target="_blank"> Linkedin</a></li><br>
             <li><a id="icons" class="instagram" href="https://www.instagram.com/mohithsairamreddy/" target="_blank"> Instagram</a></li><br>
