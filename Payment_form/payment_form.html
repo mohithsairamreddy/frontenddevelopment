@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment Form</title>
     <!-- Bootstrap core CSS-->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="Bootstrapcss/bootstrap.min.css" rel="stylesheet">
     <!-- MY Modified CSS-->
     <link rel="stylesheet" href="form.css">
     
@@ -17,11 +17,13 @@
         <h1>Payment Form</h1>
         <p>Required fileds are followed by *</p>
     </div>
+    <!--Container using Bootstrap-->
     <div class="containers">
-        <!--COntact Information-->
+        <!--Contact Information-->
         <h2>Contact Information</h2>
         <p>Name: *<input type="text" name="name" placeholder="Name" required></p>
         <fieldset>
+            <!--Gender using Bootstrap-->
             <legend>Gender *</legend>
             <p>
                 <div class=" form-check-inline gender">
@@ -63,6 +65,7 @@
          <p>
              CVV: *<input type="password" name="CVV" id="CVV" placeholder="123" required>
          </p>
+         <!--Button using bootstrap-->
         <button type="submit" class="btn btn-secondary btn-lg btn-block submit">Validate the payment</button>
 
     </div>
