@@ -63,4 +63,7 @@ fieldset {
 h2{
     margin-top:25px !important;
 }
-
+select {
+    font-family: 'FontAwesome', 'sans-serif';
+  }
+  
